@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "C:/Users/140250d/Desktop/140250D_HCI/Traffic_controller/Debouncer.xst" -ofn "C:/Users/140250d/Desktop/140250D_HCI/Traffic_controller/Debouncer.syr" 
+xst -intstyle ise -ifn "C:/Users/140250d/Desktop/140250D_HCI/Traffic_controller/Debouncer.xst" -ofn "C:/Users/140250d/Desktop/140250D_HCI/Traffic_controller/Debouncer.syr" 
+xst -intstyle ise -ifn "C:/Users/140250d/Desktop/140250D_HCI/Traffic_controller/Debouncer.xst" -ofn "C:/Users/140250d/Desktop/140250D_HCI/Traffic_controller/Debouncer.syr" 
+xst -intstyle ise -ifn "C:/Users/140250d/Desktop/140250D_HCI/Traffic_controller/Debouncer.xst" -ofn "C:/Users/140250d/Desktop/140250D_HCI/Traffic_controller/Debouncer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 Debouncer.ngc Debouncer.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Debouncer_map.ncd Debouncer.ngd Debouncer.pcf 
+par -w -intstyle ise -ol high -mt off Debouncer_map.ncd Debouncer.ncd Debouncer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Debouncer.twx Debouncer.ncd -o Debouncer.twr Debouncer.pcf 

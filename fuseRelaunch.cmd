@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/140250d/Desktop/Traffic Controller/Traffic_controller/FSM_TB_isim_beh.exe" -prj "C:/Users/140250d/Desktop/Traffic Controller/Traffic_controller/FSM_TB_beh.prj" "work.FSM_TB" "work.glbl" 

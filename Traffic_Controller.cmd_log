@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/140250d/Desktop/140250D_HCI/Traffic_controller/Traffic_Controller.xst" -ofn "C:/Users/140250d/Desktop/140250D_HCI/Traffic_controller/Traffic_Controller.syr" 
+xst -intstyle ise -ifn "/home/madhushika/Documents/Semester 7/HDL/Traffic_controller/Traffic_Controller.xst" -ofn "/home/madhushika/Documents/Semester 7/HDL/Traffic_controller/Traffic_Controller.syr" 
+xst -intstyle ise -ifn "/home/madhushika/Documents/Semester 7/HDL/Traffic_controller/Traffic_Controller.xst" -ofn "/home/madhushika/Documents/Semester 7/HDL/Traffic_controller/Traffic_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "Traffic_Controller.ngc" Traffic_Controller.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Traffic_Controller_map.ncd Traffic_Controller.ngd Traffic_Controller.pcf 
